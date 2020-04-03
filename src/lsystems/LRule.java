@@ -9,7 +9,9 @@ package lsystems;
  *
  */
 public abstract class LRule {
-
+	
+	protected char match;
+	protected char[] body;
 	
 	/**
 	 * 
